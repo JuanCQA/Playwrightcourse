@@ -1,0 +1,20 @@
+{
+  "name": "playwright-activity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "testV2": "npx playwright test UI/Activityv2.spec.js",
+    "testV2UI": "npx playwright test UI/Activityv2.spec.js --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
